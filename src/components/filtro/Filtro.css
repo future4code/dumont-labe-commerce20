@@ -1,0 +1,16 @@
+.filtro-container {
+    padding: 0.4rem;
+    margin: 0.6rem;
+    border: 1px solid black;
+    height: 100vh;
+    width: 177px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filtro-container h2 {
+    margin: 0.1rem;
+}

@@ -1,0 +1,52 @@
+.produtos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.media-box {
+    margin: 0.2rem;
+    padding: 0.2rem;
+
+    border: 1px dashed orange;
+
+    width: 16.6rem;
+}
+
+.media-box a {
+    color: black;
+    text-decoration: none;
+}
+
+.media-box img {
+    height: 18.7rem;
+}
+
+.titulo, .preco {
+    padding: 0.4rem;
+
+    font-size: 1.1rem;
+}
+
+.botao {
+    color: white;
+    background-color: black;
+
+    padding: 0.5rem;
+    margin: 0.5rem 0.2rem 0.2rem;
+    width: 16.2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0.5rem;
+}
+
+.header select {
+    padding: 0;
+}
