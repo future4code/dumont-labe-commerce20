@@ -62,6 +62,8 @@ class App extends React.Component {
           <main>
             <section className="filtro">
               <Filtro
+                //Retirado a section do Carrinho
+
                 filtroBusca={this.state.filtroBusca}
                 onChangeFiltroBusca={this.onChangeFiltroBusca}
                 
